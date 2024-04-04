@@ -10,7 +10,7 @@ from Test_Locators.test_locators import Locators
 
 class TestGuvi:
  
-    @pytest.fixture
+    @pytest.fixture 
     def booting_function(self):
         self.driver = webdriver.Chrome()
         self.driver.get(Data.url)
