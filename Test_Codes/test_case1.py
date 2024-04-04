@@ -32,7 +32,7 @@ class TestGuvi:
         # enter password
         BasePage.enter_text(self, Locators.xpath_password, Data.password)
 
-        # click login button
+        # click login button 
         BasePage.click_button(self, Locators.xpath_login)
 
         assert BasePage.get_url(self) == Data.expected_url
