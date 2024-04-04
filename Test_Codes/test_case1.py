@@ -9,7 +9,7 @@ from Test_Pages.basepage import BasePage
 from Test_Locators.test_locators import Locators
 
 class TestGuvi:
-
+ 
     @pytest.fixture
     def booting_function(self):
         self.driver = webdriver.Chrome()
