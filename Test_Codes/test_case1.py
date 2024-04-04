@@ -37,6 +37,6 @@ class TestGuvi:
 
         assert BasePage.get_url(self) == Data.expected_url
         print("SUCCESS, Logged in")
-
+ 
 
 
