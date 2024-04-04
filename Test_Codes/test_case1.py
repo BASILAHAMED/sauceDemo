@@ -6,7 +6,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from Test_Data.test_data import Data
 from Test_Pages.basepage import BasePage
-from Test_Locators.test_locators import Locators
+from Test_Locators.test_locators import Locators 
 
 class TestGuvi:
  
