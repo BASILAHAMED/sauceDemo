@@ -4,3 +4,4 @@ class Data:
     username = 'standard_user'
     password = 'secret_sauce'
     expected_url = 'https://www.saucedemo.com/inventory.html'
+ 
