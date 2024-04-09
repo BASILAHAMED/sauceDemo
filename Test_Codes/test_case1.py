@@ -17,7 +17,7 @@ class TestGuvi:
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
         self.wait = WebDriverWait(self.driver, 10,  2, ignored_exceptions= [NoSuchElementException])
-        yield
+        yield 
         self.driver.close()
     
     def test_title(self, booting_function):
